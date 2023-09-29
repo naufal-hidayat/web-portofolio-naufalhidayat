@@ -1,0 +1,337 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*, *::before, *::after {
+    box-sizing: border-box;
+   }
+
+  body {
+    height: 50vh;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header.navbar-container {
+    max-width: 1200 px;
+    background-color: rgb(241, 237, 237);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 0rem;
+    z-index: 999px;
+  }
+
+  header.navbar-container .logo img {
+        width: 100px;
+  }
+
+  header.navbar-container .nav-list ul {
+    padding-left: 4;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-inline: 4rem;
+  }
+
+  header.navbar-container .nav-list li {
+        list-style-type: none;
+  }
+
+  header.navbar-container .nav-list li a {
+        text-decoration: none;
+        font-size: 1.09rem;
+        font-weight: 700;
+        color: rgb(11, 11, 11);
+        border-radius: 999px;
+        transition: all .2s ease-in-out;
+  }
+
+  header.navbar-container .nav-list li:hover a {
+        color: rgb(15, 27, 202);
+  }
+
+  main {
+        max-width: 1200px;
+        width: 100%;
+        flex-direction: column;
+        margin-inline: auto;
+        align-items: center;
+        padding: 2rem 4rem;
+        flex: 1;
+        display: flex;
+        align-items: center;
+      }
+
+      main .home {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+    
+      }
+
+      main .home .konten {
+        flex: 1 1;
+      }
+
+      main .home .konten span {
+        font-size: 1.5rem;
+        margin-block: 1rem;
+      }
+
+      main .home .konten p {
+        line-height: 1.7rem;
+        font-size: 1.2rem;
+      }
+
+      main .home .konten a{
+        padding: .8rem 2.5rem;
+        margin-block-start: 1rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1rem;
+        font-family: 'Quicksand', sans-serif;
+        color: white;
+        border: 3px solid transparent;
+        border-radius: 999px;
+        background-color: #2971bfd2;
+        cursor: pointer;
+        transition: all .15s ease-in;
+        text-decoration: none;
+      }
+
+      main .home .konten a:hover {
+        border: 3px solid #2D3E50;
+        color: #2D3E50;
+        background-color: transparent;
+      }
+
+      main .home .konten-image {
+        flex: 1;
+        display: flex;
+      }
+      main .home .konten-image img {
+        margin: auto;
+        min-width: 250px;
+        width: 300px;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+      }
+
+      main aside .profile {
+        order: 2;
+        max-width: 1200px;
+        width: 100%;
+        flex-direction: column;
+        margin-inline: auto;
+        align-items: center;
+        padding: 2rem 4rem;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        text-align: center;      
+      }
+
+      main aside .profile #about h2{
+        font-size: 1.5rem;
+        margin-block: 1rem;
+        text-align: center;
+      }
+
+      main aside .profile #about img{
+        flex: 1;
+        display: flex;
+        margin-inline: auto;
+        max-width: 200px;
+        width: 100%;
+      }
+
+        main aside .sertif{
+          order: 3; /* Urutan profil */
+          max-width: 1200px;
+          width: 100%;
+          flex-direction: column;
+          margin-inline: auto;
+          align-items: center;
+          padding: 2rem 4rem;
+          flex: 1;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          margin: 50px auto;
+        }
+        
+        main aside .sertif .sertif1{
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          border-radius: 5px;
+          padding: 20px;
+          margin-top: 20px;
+          flex: 1;
+          flex-direction: row;
+        } 
+
+        main aside .sertif .sertif1 img{
+        width: 500px;
+        }
+
+        main aside .sertif .sertif2{
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          border-radius: 5px;
+          padding: 20px;
+          margin-top: 20px;
+          flex: 1;
+        } 
+
+        main aside .sertif .sertif2 img{
+          width: 500px;
+        }
+        main aside .contact{
+        order: 4;
+        max-width: 1200px;
+        width: 100%;
+        flex-direction: column;
+
+        }
+
+        main aside .skill{
+          order: 3; /* Urutan profil */
+          max-width: 1200px;
+          width: 100%;
+          flex-direction: column;
+          margin-inline: auto;
+          align-items: center;
+          padding: 2rem 4rem;
+          flex: 1;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          margin: 50px auto;
+        }
+        
+        main aside .skill .designer{
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          border-radius: 5px;
+          padding: 20px;
+          margin-top: 20px;
+          flex: 1;
+          flex-direction: row;      
+        } 
+
+        main aside .skill .designer img{
+        width: 500px;
+        }
+
+        main aside .skill .backend{
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          border-radius: 5px;
+          padding: 20px;
+          margin-top: 20px;
+          flex: 1;      
+        } 
+
+        main aside .skill .backend img{
+          width: 500px;
+          }
+        main aside .contact{
+        order: 4;
+        max-width: 1200px;
+        width: 100%;
+        flex-direction: column;
+        }
+
+       main aside .contact {
+          max-width: 500px;
+          margin: 0 auto;
+          padding: 20px;
+          border-radius: 5px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        main aside .contact h2 {
+          font-size: 1.5rem;
+          margin-bottom: 20px;
+          text-align: center;
+        }
+        
+        main aside .contact ul {
+          list-style: none;
+          padding: 0;
+        }
+        
+        main aside .contact li {
+          margin-bottom: 10px;
+        }
+        
+        main aside .contact a {
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          color: #333;
+          transition: color 0.3s ease-in-out;
+        }
+        
+        main aside .contact a:hover {
+          color: #007bff;
+        }
+        
+        main aside .contact i {
+          font-size: 1.2rem;
+          margin-right: 10px;
+        }
+        
+        footer{
+          text-align: center;
+          background-color:rgb(241, 237, 237);
+        }
+
+        @media screen and (max-width: 768px)
+        {
+          header.navbar-container {
+          flex-direction: column;
+          }
+
+         header.navbar-container .nav-list ul {
+         flex-wrap: wrap;
+         column-gap: .5rem;
+      }
+      header.navbar-container .nav-list ul {
+        flex-wrap: wrap;
+        column-gap: .5rem;
+      }
+
+      main {
+        padding: 1rem 3rem;
+      }
+   
+      main .home {
+        flex-direction: column;
+        gap: 2rem;
+      }
+
+      main .home .konten .h1 {
+        font-size: 3rem;
+      }
+     
+      main .home .konten p {
+        font-size: 1rem;
+      }
+     
+      main .home .konten-image {
+        order: -1;
+     
+
+    }
+    main aside .profile{
+      flex-direction: column;
+      gap: 2rem; 
+    }
+
+    main aside .profile #about img{
+      order: -1;
+    }
+  }
